@@ -1,2 +1,2 @@
 # random-background-js
-Troca a cor de fundo de maneira aleatória da página web via javascript
+Página web que troca o background aleatoriamente do body (do HTML) através do DOM dinamicamente, com auxílio do javascript, css e html
