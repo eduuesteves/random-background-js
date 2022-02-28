@@ -1,2 +1,12 @@
-# random-background-js
-Página web que troca o background aleatoriamente do body (do HTML) através do DOM dinamicamente, com auxílio do javascript, css e html
+# Random Color with JS
+
+## Novo layout
+
+![Novo Layout](/images/newLayout.png)
+
+Página web que fornece 3 cores aleatórias.
+Clicando no hexadecimal, a cor é copiada.
+
+## Antigo Layout
+
+![Antigo Layout](/images/oldLayout.png)

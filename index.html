@@ -7,12 +7,29 @@
 
     <link rel="stylesheet" href="style.css" >
 
-    <title>Background Aleatoria</title>
+    <title>Random Color</title>
 </head>
 <body>
-    <div>
-        <p>Background Color: <span id="color"></span></p>
-        <button onclick="trocarCor()">Mudar cor!</button>
+    <header>
+        Clique na cor hexadecimal para copiar
+    </header>
+    <div id="color1" class="random">
+        <div class="info">
+            <p id="hexa1" onclick="writeText1()"></p>
+            <button onclick="randomColor1()">Random Color</button>
+        </div>
+    </div>
+    <div id="color2" class="random">
+        <div class="info">
+            <p id="hexa2" onclick="writeText2()"></p>
+            <button onclick="randomColor2()">Random Color</button>
+        </div>
+    </div>
+    <div id="color3" class="random">
+        <div class="info">
+            <p id="hexa3" onclick="writeText3()"></p>
+            <button onclick="randomColor3()">Random Color</button>
+        </div>
     </div>
 
     <script src="script.js"></script>
